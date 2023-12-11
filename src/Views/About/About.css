@@ -1,0 +1,24 @@
+.container3 {
+    background-image: url('../../Images/SobreMi.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    background-position: center; /* Centra la imagen horizontalmente */
+    width: 75%;
+    height: 500px;
+    display: flex;
+    color: white; /* Ajusta el color del texto para que sea legible en la imagen */
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.imageAbout {
+    height: 200px;
+    width: 200px;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.textAbout {
+    font-size: larger;
+}

@@ -1,0 +1,13 @@
+.container {
+    background-image: url('../../Images/.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    background-position: center; /* Centra la imagen horizontalmente */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ajusta el color del texto para que sea legible en la imagen */
+    text-align: center;
+}
+
