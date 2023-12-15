@@ -1,5 +1,6 @@
-.container {
-    background-image: url('../../Images/Info.jpg');
+.contact_container {
+    /* background-image: url('../../Images/Info.jpg'); */
+    background-color: #152231;
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
     background-position: center; /* Centra la imagen horizontalmente */
     width: 100%;
@@ -11,3 +12,10 @@
     text-align: center;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+    margin-right:20%;
+}

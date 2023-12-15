@@ -1,0 +1,19 @@
+.containerApp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.containerApp a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.containerApp a:hover {
+    color: lightgray;
+}

@@ -1,13 +1,12 @@
 import React from 'react';
 
-function Proyects() {
-
+const Projects = () => {
   return (
-      <section>
+    <section className="projects">
       <h2>Proyectos</h2>
+      {/* Lista de proyectos */}
     </section>
-
-  )
+  );
 }
 
-export default Proyects;
+export default Projects;
