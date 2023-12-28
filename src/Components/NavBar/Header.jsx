@@ -13,6 +13,7 @@ const Header = () => {
           <li><Link to="about" smooth={true} duration={500}>Sobre Mí</Link></li>
           <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
           <li><Link to="projects" smooth={true} duration={500}>Proyectos</Link></li>
+          <li><Link to="certifications" smooth={true} duration={500}>Certificaciones</Link></li>
           <li><Link to="contact" smooth={true} duration={500}>Contacto</Link></li>
         </ul>
       </nav>

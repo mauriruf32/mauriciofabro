@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
-import HomeImage from "../../Images/Inicio.jpg"
+// import HomeImage from "../../Images/Inicio.jpg"
 import CV from './CV Mauricio Fabro 2023_Spanish.pdf';
 
 import './Home.css';
@@ -14,16 +14,13 @@ function Home() {
 
   return (
     <section className='home'>
-      <div className='textHome'>
-              <div className=' backIM '>
-    <img className='imageHome'  src={HomeImage} alt="img_home"/>
-
-          <h2>Hola! Me llamo Mauricio Fabro</h2>
-            Soy Desarrollador Full Stack
-      </div>
-      </div>
-
-      <Button onClick={handleDownload} className='button'>Descargar PDF</Button>
+    <div className='container1'>
+       <div className='textHome'>
+          <h1>Hola! Me llamo Mauricio Fabro</h1>
+          <h2>Soy Desarrollador Full-Stack</h2>
+          <Button onClick={handleDownload} className='button'>Descargar PDF</Button>
+        </div>
+    </div>
     </section>
   );
 }
