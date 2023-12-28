@@ -1,3 +1,8 @@
+.skills {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: white;
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -7,11 +7,12 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section className="about">
-      <div className='container3'> 
+    <section className="about container3">
+      <div className="backIm"> 
+    <img className="imageAbout" src={Image} alt="img_about"/>
+      </div>
+      <div className='textAbout'> 
       <h2>Sobre Mí</h2>
-      <img className="imageAbout" src={Image} alt="img_about"/>
-     
       <p>¡Hola! Soy Mauricio, recién graduado del bootcamp de SoyHenry y apasionado por la *programación Full-Stack.* 
     Durante mi formación, he adquirido habilidades sólidas en tecnologías como *JavaScript, HTML, CSS, Redux, React, Node JS, SQL, Sequelize, entre otras.*
     Mi enfoque proactivo y mi deseo constante de aprender me llevan a explorar nuevas tecnologías y enfoques en el desarrollo web.

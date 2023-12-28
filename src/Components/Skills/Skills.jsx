@@ -6,15 +6,15 @@ import JS from '../../Images/javascript.d04a05c4.png';
 import NODE from "../../Images/node.f467a70a.png";
 import POSTGRES from "../../Images/postgres.8e58ad2c.png";
 import GIT from "../../Images/giT.png";
-import "./Skills.css"; // Import your CSS file
+import "./Skills.css";
 
 function Skills() {
   return (
     <section className="skills">
+      <div >
       <h2>Skills</h2>
-      <div id='skills' className='w-full md:w-[90%] min-h-screen mx-auto flex bg-slate-100 dark:bg-[#0a192f] text-[#0a192f] dark:text-gray-300'>
-        <div className='max-w-[750px] m-auto py-4 px-5 flex flex-col justify-center w-full h-full'>
-          <div className='w-full grid skills-grid' data-aos="fade-in">
+        <div className='m-auto py-4 px-5 flex flex-col justify-center'>
+          <div className='grid skills-grid'>
             <div className='skill-item'>
               <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
               <p className='mt-4'>HTML</p>

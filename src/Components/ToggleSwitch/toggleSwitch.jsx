@@ -1,4 +1,3 @@
-// src/components/ToggleSwitch.js
 import React, { Component } from 'react';
 import './toggleSwitch.css'; // Añadir estilos según sea necesario
 
@@ -15,12 +14,15 @@ class ToggleSwitch extends Component {
       isChecked: !prevState.isChecked,
     }));
 
-    // Aquí puedes manejar lógica adicional según el estado del interruptor
+    // Puedes usar el estado actualizado para cambiar el tema aquí
+    const theme = this.state.isChecked ? 'dark' : 'light';
+    // Llamar a una función del padre para cambiar el tema
+    this.props.onThemeChange(theme);
   };
 
   render() {
     return (
-      <label className="toggle-switch">
+      <label className={`toggle-switch ${this.state.isChecked ? 'dark' : 'light'}`}>
         <input
           type="checkbox"
           checked={this.state.isChecked}

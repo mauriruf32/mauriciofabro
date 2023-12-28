@@ -1,14 +1,12 @@
-// src/components/Header.js
 import React from 'react';
 import { Link } from 'react-scroll';
-import ToggleSwitch from '../ToggleSwitch/toggleSwitch';
 
 import "./Header.css"
 
 const Header = () => {
   return (
     <header>
-      <h1>Mi Portafolio</h1>
+      <h1>Mauricio Fabro</h1>
       <nav>
         <ul>
           <li><Link to="home" smooth={true} duration={500}>Inicio</Link></li>
@@ -18,7 +16,6 @@ const Header = () => {
           <li><Link to="contact" smooth={true} duration={500}>Contacto</Link></li>
         </ul>
       </nav>
-      <ToggleSwitch />
     </header>
   );
 }

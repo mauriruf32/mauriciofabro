@@ -1,18 +1,27 @@
-.container2 {
-    background-image: url('../../Images/Inicio.jpg');
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
-    background-position: center; /* Centra la imagen horizontalmente */
+.home {
     width: 100%;
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     color: white; /* Ajusta el color del texto para que sea legible en la imagen */
+    justify-content: space-evenly;
+    
+}
+
+.imageHome {
+    width: 50%;
 }
 
 .textHome {
-    
-    text-align: center;
-    font-size: xx-large;
-}
 
+    margin-top: 50px;
+    text-align: left;
+    font-size: xx-large;
+    height: 210px;
+
+} 
+
+.button {
+    width: 150px;
+    margin-left: 200px;
+}
