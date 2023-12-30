@@ -1,6 +1,6 @@
 .container1 {
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     color: white; /* Ajusta el color del texto para que sea legible en la imagen */
@@ -11,13 +11,22 @@
 
 .textHome {
     margin-top: 100px;
+
     text-align: left;
     font-size: xx-large;
     height: 210px;
-    margin-left: 200px;
+    margin-left: 50px;
 } 
 
 .button {
     width: 150px;
+    color: white;
+    background-color: #78b0a6;
+    border: #152231;
    
 }
+
+.button:hover {
+    background-color: #181a1d; /* Cambia el color de fondo al color primario de Bootstrap en estado de hover */
+    border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
+  }

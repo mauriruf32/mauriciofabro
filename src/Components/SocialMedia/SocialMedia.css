@@ -3,5 +3,6 @@
     flex-direction: column;
     list-style: none;
     text-align: left;
-
+    margin-top: 50px;
+    font-family: Tahoma;
 }

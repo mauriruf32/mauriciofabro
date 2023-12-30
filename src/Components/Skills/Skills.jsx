@@ -6,48 +6,134 @@ import JS from '../../Images/javascript.d04a05c4.png';
 import NODE from "../../Images/node.f467a70a.png";
 import POSTGRES from "../../Images/postgres.8e58ad2c.png";
 import GIT from "../../Images/giT.png";
+import REDUX from "../../Images/redux2.png"
 import "./Skills.css";
 
 function Skills() {
   return (
     <section className="skills">
-      <div >
-      <h2>Skills</h2>
-        <div className='m-auto py-4 px-5 flex flex-col justify-center'>
-          <div className='grid skills-grid'>
-            <div className='skill-item'>
-              <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-              <p className='mt-4'>HTML</p>
-            </div>
-            <div className='skill-item'>
-              <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
-              <p className='mt-4'>CSS</p>
-            </div>
-            <div className='skill-item'>
-              <img className='w-20 mx-auto' src={JS} alt="JavaScript icon" />
-              <p className='mt-4'>JAVASCRIPT</p>
-            </div>
-            <div className='skill-item'>
-              <img className='w-20 mx-auto' src={REACT} alt="React icon" />
-              <p className='mt-4'>REACT</p>
-            </div>
-            <div className='skill-item'>
-              <img className='w-20 mx-auto' src={GIT} alt="GIT icon" />
-              <p className='mt-4'>GIT</p>
-            </div>
-            <div className='skill-item'>
-              <img className='w-20 mx-auto' src={NODE} alt="Node.js icon" />
-              <p className='mt-4'>NODE JS</p>
-            </div>
-            <div className='skill-item'>
-              <img className='w-20 mx-auto' src={POSTGRES} alt="PostgreSQL icon" />
-              <p className='mt-4'>POSTGRESQL</p>
-            </div>
+     <div className='skills_container'>
+  <h2>Skills</h2>
+  <div class="cols">
+			<div class="col">
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <span><img className='img' src={HTML} alt="" /></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+              <p>HTML</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" >
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <img className='img' src={JS} alt="" />
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+            <p>JavaScript</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <span><img className='img' src={CSS} alt="" /></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+              <p>CSS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" >
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <span><img className='img' src={NODE} alt="" /></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+              <p>NODE.JS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <span><img className='img' src={REACT} alt="" /></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>REACT</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col" >
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <span><img className='img' src={POSTGRES} alt="" /></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>POSTGRES</p>
+						</div>
+					</div>
+				</div>
+			</div>
+      <div class="col" >
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <span><img className='img' src={GIT} alt="" /></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>GIT</p>
+						</div>
+					</div>
+				</div>
+			</div>
+      <div class="col">
+				<div class="container_S">
+					<div class="front" >
+						<div class="inner">
+              <span><img className='img' src={REDUX} alt="" /></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+            <p>REDUX</p>
           </div>
-        </div>
-      </div>
+					</div>
+				</div>
+			</div>
+		</div>
+ </div>
     </section>
   );
 }
 
 export default Skills;
+

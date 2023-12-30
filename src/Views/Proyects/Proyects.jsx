@@ -33,14 +33,15 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className='container'>
-        <h2>Proyectos</h2>
+        <h1 className='h2'>Proyectos</h1>
+        <br />
         {projectData.map((project, index) => (
-          <div key={index} className="card mb-3">
-            <div className="row no-gutters">
+          <div key={index} className="card mb-3" style={{ backgroundColor: 'transparent' }}>
+            <div className="row no-gutter" style={{ backgroundColor: 'transparent' }}>
               <div className="col-md-4">
                 <img src={project.image} className="card-img" alt={`Thumbnail ${index}`} />
               </div>
-              <div className="col-md-8" style={{ backgroundColor: '#30404d' }}>
+              <div className="col-md-8" style={{ backgroundColor: 'transparent' }}>
                 <div className="card-body" >
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
@@ -54,7 +55,7 @@ const Projects = () => {
                   <img className='Skills' src={NODE} alt="" />
                   <img className='Skills' src={REDUX} alt="" />
                 </div>
-                <Button><a href={project.enlace} target='_blank' rel="noreferrer" >IR</a></Button>
+                <Button className='button3'><a href={project.enlace} target='_blank' rel="noreferrer" >Explorar</a></Button>
               </div>
             </div>
           </div>

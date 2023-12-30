@@ -10,6 +10,20 @@
     justify-content: center;
     color: white; /* Ajusta el color del texto para que sea legible en la imagen */
     text-align: center;
+  font-family: Tahoma;
+
+}
+.button2 {
+  width: 150px;
+  color: white;
+  background-color: #78b0a6;
+  border: #152231;
+ 
+}
+
+.button2:hover {
+  background-color: #181a1d; /* Cambia el color de fondo al color primario de Bootstrap en estado de hover */
+  border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
 }
 
 .form {
@@ -18,4 +32,6 @@
     text-align: left;
     width: 40%;
     margin-right:20%;
+  font-family: Tahoma;
+
 }

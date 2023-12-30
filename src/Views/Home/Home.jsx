@@ -18,7 +18,8 @@ function Home() {
        <div className='textHome'>
           <h1>Hola! Me llamo Mauricio Fabro</h1>
           <h2>Soy Desarrollador Full-Stack</h2>
-          <Button onClick={handleDownload} className='button'>Descargar PDF</Button>
+          <Button onClick={handleDownload} className='button'>Descargar CV</Button>
+
         </div>
     </div>
     </section>

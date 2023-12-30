@@ -3,9 +3,27 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
+  font-family: Tahoma;
+  border-color: brown;
 }
 
+.h2 {
+  text-align: center;
+}
+.button3 {
+  width: 100px;
+  color: white;
+  background-color: #78b0a6;
+  border: #152231;
+  margin-left: 600px;
+font-size: small;
+ 
+}
+.button3:hover {
+  background-color: #181a1d; /* Cambia el color de fondo al color primario de Bootstrap en estado de hover */
+  border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
+}
 
 .Skills {
   height: 50px;

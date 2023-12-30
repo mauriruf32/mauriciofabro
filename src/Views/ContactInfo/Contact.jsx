@@ -2,6 +2,8 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react'
 import "./Contact.css"
 import { SocialMedia } from '../../Components/SocialMedia/SocialMedia';
+import { Button } from 'react-bootstrap';
+
 
 const Contact = () => {
     const [state, handleSubmit] = useForm("xnqkeken");
@@ -13,7 +15,7 @@ const Contact = () => {
   return (
     <section className="contact contact_container" >
 <form onSubmit={handleSubmit} className='form'>
- <p>Contacto</p>
+            <h2>Contacto</h2>
       <label htmlFor="name">
         Nombre
       </label>
@@ -45,9 +47,9 @@ const Contact = () => {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
+      <Button className="button2" type="submit" disabled={state.submitting}>
         Enviar
-      </button>
+      </Button>
     </form>
     <br />
     <SocialMedia />
