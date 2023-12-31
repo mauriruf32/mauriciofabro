@@ -10,6 +10,7 @@ import REACT from '../../Images/react.e00184ba.png';
 import JS from '../../Images/javascript.d04a05c4.png';
 import NODE from "../../Images/node.f467a70a.png";
 import REDUX from "../../Images/redux.png";
+import POS from "../../Images/postgres.8e58ad2c.png";
 
 
 import "./Proyects.css";
@@ -54,6 +55,7 @@ const Projects = () => {
                   <img className='Skills' src={CSS} alt="" />
                   <img className='Skills' src={NODE} alt="" />
                   <img className='Skills' src={REDUX} alt="" />
+                  <img className='Skills' src={POS} alt="" />
                 </div>
                 <Button className='button3'><a href={project.enlace} target='_blank' rel="noreferrer" >Explorar</a></Button>
               </div>
