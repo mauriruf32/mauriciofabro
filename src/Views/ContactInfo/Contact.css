@@ -1,37 +1,42 @@
 .contact_container {
-    /* background-image: url('../../Images/Info.jpg'); */
-    background-color: #152231;
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
-    background-position: center; /* Centra la imagen horizontalmente */
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white; /* Ajusta el color del texto para que sea legible en la imagen */
-    text-align: center;
+  background-color: #152231;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 500px; /* Cambiado a min-height para permitir un crecimiento en contenido */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
   font-family: Tahoma;
-
 }
+
 .button2 {
   width: 150px;
   color: white;
   background-color: #78b0a6;
   border: #152231;
- 
 }
 
 .button2:hover {
-  background-color: #181a1d; /* Cambia el color de fondo al color primario de Bootstrap en estado de hover */
-  border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
+  background-color: #181a1d;
+  border-color: #18222c;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 40%;
-    margin-right:20%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 80%; /* Modificado para ocupar un ancho mayor en pantallas pequeñas */
+  margin: 0 auto; /* Centra el formulario en pantallas pequeñas */
   font-family: Tahoma;
+}
 
+@media only screen and (min-width: 600px) {
+  /* Aplica estilos específicos para pantallas más grandes (ejemplo: tablets) */
+  .form {
+    width: 60%; /* Puedes ajustar el ancho según tus necesidades */
+    margin-right: 10%; /* Ajusta el margen derecho según tus necesidades */
+  }
 }
