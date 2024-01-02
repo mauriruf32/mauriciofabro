@@ -3,19 +3,22 @@ import { useForm, ValidationError } from '@formspree/react'
 import "./Contact.css"
 import { SocialMedia } from '../../Components/SocialMedia/SocialMedia';
 import { Button } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 
 const Contact = () => {
     const [state, handleSubmit] = useForm("xnqkeken");
+    const [ t ] = useTranslation("global");
 
   if (state.succeeded) {
       return <p>Gracias! Estaremos en contacto</p>;
   }
 
+
   return (
     <section className="contact contact_container" >
 <form onSubmit={handleSubmit} className='form'>
-            <h2>Contacto</h2>
+            <h2>{t(`contact.title`)}</h2>
       <label htmlFor="name">
         Nombre
       </label>

@@ -14,18 +14,22 @@ import POS from "../../Images/postgres.8e58ad2c.png";
 
 
 import "./Proyects.css";
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+
+  const [t] = useTranslation("global");
+
   const projectData = [
     {
       title: "Countries App",
-      description: "El objetivo fue construir una Single Page Application (SPA) para explorar información y detalles de diversos países, utilizando tecnologías como: React, Redux, Node, CSS, Express, Sequelize. Ademas se usaron recursos como controladores de versiones (Git y Github).",
+      description: <p>{t("projects.projects_countries")}</p>,
       image: Countries1, Countries2,
       enlace: "https://countries-app-theta-gilt.vercel.app/",
     },
     {
       title: "PrintCraft3D",
-      description: "Para este proyecto (grupal) nos propusimos realizar una ecommerce para la venta de articulos impresos con impresoras 3D. Se implementaron tecnologías como JavaScript, React.js, Redux.js, Node.js, CSS, etc.",
+      description: <p>{t("projects.projects_print")}</p>,
       image: Print1,
       enlace: "https://printcraft3d.vercel.app/",
     },
@@ -34,7 +38,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className='container'>
-        <h1 className='h2'>Proyectos</h1>
+        <h1 className='h2'>{t("projects.projects_title")}</h1>
         <br />
         {projectData.map((project, index) => (
           <div key={index} className="card mb-3" style={{ backgroundColor: 'transparent' }}>

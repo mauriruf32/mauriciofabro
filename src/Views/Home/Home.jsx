@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-
+import { useTranslation } from 'react-i18next';
 // import HomeImage from "../../Images/Inicio.jpg"
 import CV from './CV Mauricio Fabro 2023_Spanish.pdf';
 
@@ -12,14 +12,17 @@ function Home() {
     window.open(CV);
   };
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <section className='home'>
     <div className='container1'>
        <div className='textHome'>
-          <h1>Hola! Me llamo Mauricio Fabro</h1>
-          <h2>Soy Desarrollador Full-Stack</h2>
+          <h1>{t(`home.welcome`)}</h1>
+          <h2>{t(`home.presentation`)}</h2>
+          <Button onClick={() => i18n.changeLanguage("es")} className='button'>ES</Button>
+          <Button onClick={() => i18n.changeLanguage("en")} className='button'>EN</Button>
           <Button onClick={handleDownload} className='button'>Descargar CV</Button>
-
         </div>
     </div>
     </section>
