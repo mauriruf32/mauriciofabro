@@ -20,8 +20,6 @@ function Home() {
        <div className='textHome'>
           <h1>{t(`home.welcome`)}</h1>
           <h2>{t(`home.presentation`)}</h2>
-          <Button onClick={() => i18n.changeLanguage("es")} className='button'>ES</Button>
-          <Button onClick={() => i18n.changeLanguage("en")} className='button'>EN</Button>
           <Button onClick={handleDownload} className='button'>Descargar CV</Button>
         </div>
     </div>
