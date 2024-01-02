@@ -18,7 +18,7 @@ import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
 
-  const [t] = useTranslation("global");
+  const [ t ] = useTranslation("global");
 
   const projectData = [
     {
@@ -51,7 +51,7 @@ const Projects = () => {
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
                   <p className="card-text">
-                    <small>Tecnologias</small>
+                    <small>{t("projects.projects_skills")}</small>
                   </p>
                   <img className='Skills' src={REACT} alt="" />
                   <img className='Skills' src={JS} alt="" />

@@ -4,12 +4,15 @@ import Domestika from "../../Images/certificateDomestika.jpg";
 import EFSET from "../../Images/EFSET.jpg";
 
 import "./Certifications.css"
+import { useTranslation } from 'react-i18next';
 
 const Certifications = () => {
+  const [ t ] = useTranslation("global");
+
   return (
     <section className='certifications'>
         <div className='general'> 
-        <h2>Certificaciones</h2>
+        <h2>{t("certifications.certifications_title")}</h2>
         <br />
       <div className='certi'>
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
