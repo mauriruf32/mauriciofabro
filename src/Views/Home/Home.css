@@ -31,4 +31,9 @@
     border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
   }
 
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
   
