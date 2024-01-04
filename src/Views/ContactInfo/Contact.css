@@ -1,3 +1,12 @@
+@media only screen and (min-width: 600px) {
+  /* Aplica estilos específicos para pantallas más grandes (ejemplo: tablets) */
+  .form {
+    width: 60%; /* Puedes ajustar el ancho según tus necesidades */
+    margin-right: 10%; /* Ajusta el margen derecho según tus necesidades */
+  }
+}
+
+
 .contact_container {
   background-color: #152231;
   background-size: cover;
@@ -33,10 +42,3 @@
   font-family: Tahoma;
 }
 
-@media only screen and (min-width: 600px) {
-  /* Aplica estilos específicos para pantallas más grandes (ejemplo: tablets) */
-  .form {
-    width: 60%; /* Puedes ajustar el ancho según tus necesidades */
-    margin-right: 10%; /* Ajusta el margen derecho según tus necesidades */
-  }
-}
