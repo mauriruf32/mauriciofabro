@@ -7,10 +7,12 @@ header {
   padding: 10px 0;
   z-index: 1000;
   color: white;
+  justify-content: center;
 }
 
 nav {
   margin-top: 10px;
+  display: flex;
 }
 
 ul {
@@ -18,6 +20,7 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
+  justify-items: center;
 }
 
 li {
@@ -45,7 +48,7 @@ a {
 
 .button_H {
   width: 50px;
-  height: 50px;
+  height: auto;
   color: white;
   background-color: #78b0a6;
   border: #152231;
@@ -55,4 +58,8 @@ a {
 .button_H:hover {
   background-color: #181a1d; /* Cambia el color de fondo al color primario de Bootstrap en estado de hover */
   border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
+}
+
+.botones {
+  margin-left: 600px;
 }
