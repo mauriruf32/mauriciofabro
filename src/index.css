@@ -1,7 +1,5 @@
-/* Ejemplo de media query para pantallas pequeñas */
-@media only screen and (max-width: 600px) {
-  /* Estilos específicos para pantallas pequeñas */
-}
+/* @media only screen and (max-width: 600px) {
+} */
 
 
 body {

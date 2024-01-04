@@ -1,11 +1,11 @@
-@media only screen and (min-width: 600px) {
-  /* Aplica estilos específicos para pantallas más grandes (ejemplo: tablets) */
+/* @media only screen and (min-width: 600px) {
+ 
   .textAbout {
-    width: 75%; /* Puedes ajustar el ancho según tus necesidades */
+    width: 75%; 
     margin-left: auto;
     margin-right: auto;
   }
-}
+} */
 
 
 .container {
