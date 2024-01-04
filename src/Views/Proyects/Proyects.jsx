@@ -44,7 +44,7 @@ const Projects = () => {
           <div key={index} className="card mb-3" style={{ backgroundColor: 'transparent' }}>
             <div className="row no-gutter" style={{ backgroundColor: 'transparent' }}>
               <div className="col-md-4">
-                <img src={project.image} className="card-img" alt={`Thumbnail ${index}`} />
+                <img src={project.image} className="card-img" alt={`Thumbnail ${index}`} class="img-thumbnail" />
               </div>
               <div className="col-md-8" style={{ backgroundColor: 'transparent' }}>
                 <div className="card-body" >

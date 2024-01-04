@@ -28,3 +28,8 @@ font-size: small;
 .Skills {
   height: 50px;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
