@@ -12,7 +12,7 @@ function Home() {
     window.open(CV);
   };
 
-  const [t, i18n] = useTranslation("global");
+  const [ t ] = useTranslation("global");
 
   return (
     <section className='home'>
