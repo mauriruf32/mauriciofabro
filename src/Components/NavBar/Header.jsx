@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 import "./Header.css"
 import { useTranslation } from 'react-i18next';
@@ -18,8 +18,8 @@ const Header = () => {
           <li><Link to="projects" smooth={true} duration={500}>{t("header.projects")}</Link></li>
           <li><Link to="certifications" smooth={true} duration={500}>{t("header.certifications")}</Link></li>
           <li><Link to="contact" smooth={true} duration={500}>{t("header.contact")}</Link></li>
-          <Button onClick={() => i18n.changeLanguage("es")} className='button'>ES</Button>
-          <Button onClick={() => i18n.changeLanguage("en")} className='button'>EN</Button>
+          <Button onClick={() => i18n.changeLanguage("es")} className='button_H'>ES</Button>
+          <Button onClick={() => i18n.changeLanguage("en")} className='button_H'>EN</Button>
         </ul>
       </nav>
     </header>

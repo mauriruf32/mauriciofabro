@@ -43,3 +43,16 @@ a {
   cursor: pointer;
 }
 
+.button_H {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #78b0a6;
+  border: #152231;
+
+}
+
+.button_H:hover {
+  background-color: #181a1d; /* Cambia el color de fondo al color primario de Bootstrap en estado de hover */
+  border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
+}
