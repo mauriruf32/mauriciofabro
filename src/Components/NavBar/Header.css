@@ -13,6 +13,8 @@ header {
 nav {
   margin-top: 10px;
   display: flex;
+  margin-bottom: 10px;
+
 }
 
 ul {
@@ -52,7 +54,6 @@ a {
   color: white;
   background-color: #78b0a6;
   border: #152231;
-
 }
 
 .button_H:hover {
@@ -61,5 +62,6 @@ a {
 }
 
 .botones {
-  margin-left: 300px;
+  margin-left: 600px;
+  position: absolute;
 }
