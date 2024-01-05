@@ -11,28 +11,22 @@ const Header = () => {
 
   return (
     <header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar w/ text</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-    </ul>
-    <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
-  </div>
-</nav>
+      <nav>
+        <ul>
+          <li><Link to="home" smooth={true} duration={500}>{t("header.home")}</Link></li>
+          <li><Link to="about" smooth={true} duration={500}>{t("header.about")}</Link></li>
+          <li><Link to="skills" smooth={true} duration={500}>{t("header.skills")}</Link></li>
+          <li><Link to="projects" smooth={true} duration={500}>{t("header.projects")}</Link></li>
+          <li><Link to="certifications" smooth={true} duration={500}>{t("header.certifications")}</Link></li>
+          <li><Link to="contact" smooth={true} duration={500}>{t("header.contact")}</Link></li>
+
+
+        </ul>
+        <div className='botones'>
+          <Button onClick={() => i18n.changeLanguage("es")} className='button_H'>ES</Button>
+          <Button onClick={() => i18n.changeLanguage("en")} className='button_H'>EN</Button>
+          </div>
+      </nav>
     </header>
   );
 }
