@@ -10,13 +10,12 @@
   background-color: #152231;
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: 80%;
   min-height: 500px; /* Cambiado a min-height para permitir un crecimiento en contenido */
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  text-align: center;
   font-family: Tahoma;
 }
 
@@ -36,8 +35,9 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 80%; /* Modificado para ocupar un ancho mayor en pantallas pequeñas */
-  margin: 0 auto; /* Centra el formulario en pantallas pequeñas */
+  width: 50%; /* Modificado para ocupar un ancho mayor en pantallas pequeñas */
   font-family: Tahoma;
+  align-items: center;
+  justify-content: center;
 }
 

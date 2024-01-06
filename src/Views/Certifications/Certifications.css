@@ -13,8 +13,8 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 700px; /* Set your desired maximum width */
-    height: 500px;
+    width: 80%; /* Set your desired maximum width */
+    height: auto;
     margin: 0 auto; /* Center the carousel */
     color: white;
     margin-bottom: 150px;
