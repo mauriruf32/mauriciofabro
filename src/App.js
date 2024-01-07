@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./App.css"
 import NavBar from "./Components/NavBar/Header"
 import Home from './Views/Home/Home';
 import About from './Views/About/About';
@@ -10,7 +10,7 @@ import Certifications from './Views/Certifications/Certifications';
 
 function App() {
   return (
-    <div>
+    <div className='containerApp'>
       <NavBar />
       <Home />
       <About />

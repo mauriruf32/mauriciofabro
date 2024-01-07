@@ -1,10 +1,7 @@
 .containerApp {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
     background-color: #152231;
-    color: white;
-    padding: 10px;
+
 }
 
 .containerApp a {
