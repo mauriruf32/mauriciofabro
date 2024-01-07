@@ -17,6 +17,11 @@
     width: 100%;
   }
   
+  .h2 {
+    margin-right: 10px;
+    padding-bottom: -100px;
+  }
+
   .imageAbout {
     border-color: antiquewhite;
     border-style: solid;
@@ -24,7 +29,7 @@
     height: 200px;
     width: 200px;
     margin-top: 20px;
-    margin-left: auto;
+    margin-left: 40px;
   background-color: #152231;
   }
   
@@ -36,6 +41,7 @@
     font-size: larger;
     text-align: justify;
     display: flex;
+    padding-top: -90px;
   }
   
   .img {

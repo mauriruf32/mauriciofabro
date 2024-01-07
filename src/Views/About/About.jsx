@@ -14,11 +14,11 @@ const About = () => {
       <div className="backIm"> 
       </div>
       <div className="container">  
-      <h2>{t("about.about_title")}</h2>
-      
-      <div className='textAbout'> 
-      
     <img className="imageAbout" src={Image} alt="img_about"/>
+
+      <h2 className='h2'>{t("about.about_title")}</h2>
+
+      <div className='textAbout'>
 
       <p>{t("about.about")}</p>
     </div>
