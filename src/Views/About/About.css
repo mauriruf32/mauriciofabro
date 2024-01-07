@@ -23,6 +23,7 @@
     border-radius: 300px;
     height: 200px;
     width: 200px;
+    margin-top: 20px;
     margin-left: auto;
   background-color: #152231;
   }
@@ -30,7 +31,7 @@
   .textAbout {
     width: 100%; /* Utiliza el 100% del ancho en pantallas más pequeñas */
     height: auto; /* Ajusta la altura automáticamente */
-    margin-top: 20px; /* Espacio entre la imagen y el texto */
+    margin-top: 100px; /* Espacio entre la imagen y el texto */
     color: white;
     font-size: larger;
     text-align: justify;
