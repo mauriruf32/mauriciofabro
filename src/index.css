@@ -1,6 +1,9 @@
 /* @media only screen and (max-width: 600px) {
 } */
-
+:root {
+  background-color: #152231;
+  width: 100%;
+}
 
 body {
   margin: 0;

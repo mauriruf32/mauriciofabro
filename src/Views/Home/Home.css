@@ -5,7 +5,7 @@
     flex-direction: column;
     color: white; /* Ajusta el color del texto para que sea legible en la imagen */
     justify-content: space-evenly;
-    
+    background-color: #152231;   
 }
 
 
@@ -15,7 +15,7 @@
     text-align: left;
     font-size: xx-large;
     height: 210px;
-    margin-left: 50px;
+    margin-left: 30px;
 } 
 
 .button {

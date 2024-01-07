@@ -33,6 +33,12 @@ const Projects = () => {
       image: Print1,
       enlace: "https://printcraft3d.vercel.app/",
     },
+    {
+      title: "awa.gazebos",
+      description: <p>{t("projects.projects_awa")}</p>,
+      image: Print1,
+      enlace: "https://printcraft3d.vercel.app/",
+    },
   ];
 
   return (
@@ -41,7 +47,7 @@ const Projects = () => {
         <h1 className='h2'>{t("projects.projects_title")}</h1>
         <br />
         {projectData.map((project, index) => (
-          <div key={index} className="card mb-3" style={{ backgroundColor: 'transparent' }}>
+          <div key={index} className="card mb-3 text-white" style={{ backgroundColor: 'transparent' }}>
             <div className="row no-gutter" style={{ backgroundColor: 'transparent' }}>
               <div className="col-md-4">
                 <img src={project.image} className="card-img" alt={`Thumbnail ${index}`} class="img-thumbnail" />
@@ -50,10 +56,10 @@ const Projects = () => {
                 <div className="card-body" >
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
-                  <p className="card-text">
+                  <p className="card-text text-white">
                     <small>{t("projects.projects_skills")}</small>
                   </p>
-                  <img className='Skills' src={REACT} alt="" />
+                  <img className='Skills ' src={REACT} alt="" />
                   <img className='Skills' src={JS} alt="" />
                   <img className='Skills' src={HTML} alt="" />
                   <img className='Skills' src={CSS} alt="" />
@@ -61,7 +67,7 @@ const Projects = () => {
                   <img className='Skills' src={REDUX} alt="" />
                   <img className='Skills' src={POS} alt="" />
                 </div>
-                <Button className='button3'><a href={project.enlace} target='_blank' rel="noreferrer" >Explorar</a></Button>
+                <Button ><a href={project.enlace} className='text-white' target='_blank' rel="noreferrer" >Explorar</a></Button>
               </div>
             </div>
           </div>

@@ -1,10 +1,16 @@
 .container {
     display: flex;
     flex-direction: column;
-    margin-bottom: -60px;
+    margin-bottom: 0px;
     width: auto;
+  background-color: #152231;
+  height: 500px;
   }
   
+  .about {
+  background-color: #152231;
+
+  }
   .backIm {
     background-image: url('../../Images/binario.png');
     height: 210px;
@@ -19,7 +25,8 @@
     width: 200px;
     margin-top: 85px;
     margin-left: auto;
-    margin-right: auto; /* Centra la imagen en pantallas más pequeñas */
+  background-color: #152231;
+  margin-right: auto; /* Centra la imagen en pantallas más pequeñas */
   }
   
   .textAbout {
