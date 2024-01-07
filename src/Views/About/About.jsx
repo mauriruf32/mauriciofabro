@@ -13,9 +13,11 @@ const About = () => {
     <section className="about">
       <div className="backIm"> 
       </div>
-    <img className="imageAbout" src={Image} alt="img_about"/>
       <div className="container">  
+      
       <div className='textAbout'> 
+    <img className="imageAbout" src={Image} alt="img_about"/>
+
       <h2>{t("about.about_title")}</h2>
       <p>{t("about.about")}</p>
     </div>

@@ -23,10 +23,8 @@
     border-radius: 300px;
     height: 200px;
     width: 200px;
-    margin-top: 85px;
     margin-left: auto;
   background-color: #152231;
-  margin-right: auto; /* Centra la imagen en pantallas más pequeñas */
   }
   
   .textAbout {
@@ -36,6 +34,7 @@
     color: white;
     font-size: larger;
     text-align: justify;
+    display: flex;
   }
   
   .img {
