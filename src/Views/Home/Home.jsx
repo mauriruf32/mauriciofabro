@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 // import HomeImage from "../../Images/Inicio.jpg"
-import CV from './CV Mauricio Fabro 2023_Spanish.pdf';
+import CV from './CV Mauricio Fabro 2024_Spanish.pdf';
 
 import './Home.css';
 

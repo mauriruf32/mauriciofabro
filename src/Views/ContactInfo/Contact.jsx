@@ -14,7 +14,6 @@ const Contact = () => {
       return <p>Gracias! Estaremos en contacto</p>;
   }
 
-
   return (
     <section className="contact contact_container" >
 <form onSubmit={handleSubmit} className='form'>

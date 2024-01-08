@@ -2,7 +2,7 @@ header {
   height: 100%;
   width: 100%;
   background-color: #325157;
-  padding: 10px 0;
+  padding: 5px 10px;
   z-index: 1000;
   color: white;
   justify-content: center;
@@ -11,8 +11,8 @@ header {
 }
 
 .logo {
-  width: 30px;
-  height: auto;
+  width: 50px;
+  margin-left: 30%;
 }
 
 nav {
