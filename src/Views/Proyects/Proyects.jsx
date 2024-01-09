@@ -66,7 +66,7 @@ const Projects = () => {
                   <img className='Skills' src={REDUX} alt="" />
                   <img className='Skills' src={POS} alt="" />
                 </div>
-      <button className='button3 text-white' type="button"> <a href={project.enlace}  target='_blank' rel="noreferrer" >Explorar</a></button>
+      <button className='button3 text-white' type="button"> <a href={project.enlace}  target='_blank' rel="noreferrer" >{t("buttons.buttons_project")}</a></button>
 
                
               </div>
