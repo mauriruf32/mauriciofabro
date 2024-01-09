@@ -28,5 +28,10 @@
     },
     "certifications": {
         "certifications_title":"Certificaciones"
+    },
+    "buttons": {
+        "buttons_home":"Descargar CV",
+        "buttons_project":"Explorar",
+        "buttons_contact":"Enviar"
     }
 }

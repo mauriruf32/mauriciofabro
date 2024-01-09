@@ -16,7 +16,7 @@ const Header = () => {
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" className='text-white' id="navbarSupportedContent">
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto t-white">
       <li class="nav-item active" className='text-white'>
       

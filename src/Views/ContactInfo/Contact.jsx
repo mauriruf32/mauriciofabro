@@ -49,7 +49,7 @@ const Contact = () => {
         errors={state.errors}
       />
       <button className="button2" type="submit" disabled={state.submitting}>
-        Enviar
+      {t(`buttons.buttons_contact`)}
       </button>
     </form>
     <br />

@@ -27,5 +27,10 @@
     },
     "certifications": {
         "certifications_title":"Certifications"
+    },
+    "buttons": {
+        "buttons_home":"Download Resume",
+        "buttons_project":"Explore",
+        "buttons_contact":"Send"
     }
 }

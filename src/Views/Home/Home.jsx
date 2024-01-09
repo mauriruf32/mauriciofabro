@@ -20,7 +20,7 @@ function Home() {
           <h1>{t(`home.welcome`)}</h1>
           <h2>{t(`home.presentation`)}</h2>
 
-          <button className='botton' onClick={handleDownload} >Descargar CV</button>
+          <button className='botton' onClick={handleDownload} >{t(`buttons.buttons_home`)}</button>
         </div>
     </div>
     </section>
