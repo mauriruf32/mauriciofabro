@@ -23,7 +23,7 @@ export const SocialMedia = () => {
         <br />
         <img src={Git} alt="logoGit" />
         <a href='https://github.com/mauriruf32' target='_blank' rel='noopener noreferrer'>
-          github.com/mauriruf32
+          mauriruf32
         </a>
       </li>
       <br />

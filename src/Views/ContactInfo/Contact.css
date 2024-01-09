@@ -14,7 +14,7 @@
   min-height: 500px; /* Cambiado a min-height para permitir un crecimiento en contenido */
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   color: white;
   font-family: Tahoma;
 }
@@ -41,7 +41,6 @@ font-family: Tahoma;
   text-align: left;
   width: 100%; /* Modificado para ocupar un ancho mayor en pantallas pequeñas */
   font-family: Tahoma;
-  align-items: center;
-  justify-content: center;
+  padding-left: 10%;
 }
 
