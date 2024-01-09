@@ -20,6 +20,7 @@ nav {
   display: flex;
   margin-bottom: 10px;
   width: 100%;
+  color: white;
 
 }
 
@@ -54,16 +55,15 @@ a {
   cursor: pointer;
 }
 
-.button_H {
-  width: 50px;
-  height: auto;
+.boton {
   color: white;
   background-color: #78b0a6;
   border: #152231;
+  border-radius: 10px;
 }
 
-.button_H:hover {
-  background-color: #181a1d; 
+.boton:hover {
+  background-color: #181a1d;
   border-color: #18222c;
 }
 

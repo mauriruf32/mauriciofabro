@@ -24,13 +24,14 @@ text-decoration-color: aliceblue;
   color: white;
 }
 .button3 {
-  width: 100px;
+  width: 150px;
   color: white;
   background-color: #78b0a6;
   border: #152231;
   margin-left: 200px;
   font-size: small;
   margin-bottom: -10px;
+  border-radius: 10px;
 }
 
 .button3:hover {

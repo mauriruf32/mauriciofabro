@@ -1,5 +1,5 @@
+import { useTranslation } from 'react-i18next';
 import React from 'react';
-import { Button } from 'react-bootstrap';
 
 import Countries1 from "../../Images/loading.png";
 import Countries2 from "../../Images/home.png";
@@ -14,7 +14,6 @@ import POS from "../../Images/postgres.8e58ad2c.png";
 
 
 import "./Proyects.css";
-import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
 
@@ -37,7 +36,7 @@ const Projects = () => {
       title: "E-commerce (en proceso)",
       description: <p>{t("projects.projects_awa")}</p>,
       image: Print1,
-      enlace: "https://printcraft3d.vercel.app/",
+      enlace: "...",
     },
   ];
 
@@ -67,7 +66,9 @@ const Projects = () => {
                   <img className='Skills' src={REDUX} alt="" />
                   <img className='Skills' src={POS} alt="" />
                 </div>
-                <Button ><a href={project.enlace} className='text-white' target='_blank' rel="noreferrer" >Explorar</a></Button>
+      <button className='button3 text-white' type="button"> <a href={project.enlace}  target='_blank' rel="noreferrer" >Explorar</a></button>
+
+               
               </div>
             </div>
           </div>

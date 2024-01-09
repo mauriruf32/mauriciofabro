@@ -20,7 +20,8 @@ function Home() {
        <div className='textHome'>
           <h1>{t(`home.welcome`)}</h1>
           <h2>{t(`home.presentation`)}</h2>
-          <Button onClick={handleDownload} className='button'>Descargar CV</Button>
+
+          <Button class='botton' onClick={handleDownload} >Descargar CV</Button>
         </div>
     </div>
     </section>
