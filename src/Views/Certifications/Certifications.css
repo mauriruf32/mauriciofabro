@@ -22,16 +22,13 @@
   }
 
   .buttomNe{
-    width: 50px;
-    margin-left: -50px;
+    margin-right: 100px;
     background-color: #78b0a6;
 
   }
 
   .buttomPre{
-    width: 50px;
-
-    margin-right: -50px;
+    margin-left: 100px;
     background-color: #78b0a6;
   }
   
