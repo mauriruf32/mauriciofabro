@@ -17,7 +17,7 @@ export const SocialMedia = () => {
       <br />
       <li>
         <img src={Gmail} alt="logoGmail" />
-        mauriruffini32@gmail.com
+           mauriruffini32@gmail.com
       </li>
       <li>
         <br />
