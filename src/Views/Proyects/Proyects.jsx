@@ -34,7 +34,7 @@ const Projects = () => {
       enlace: "https://printcraft3d.vercel.app/",
     },
     {
-      title: "awa.gazebos",
+      title: "E-commerce (en proceso)",
       description: <p>{t("projects.projects_awa")}</p>,
       image: Print1,
       enlace: "https://printcraft3d.vercel.app/",

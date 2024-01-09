@@ -22,7 +22,8 @@
         "projects_title":"Projects",
         "projects_countries":"The goal was to build a Single Page Application (SPA) to explore information and details about various countries, using technologies such as React, Redux, Node, CSS, Express, Sequelize. Version control tools (Git and Github) were also used.",
         "projects_print":"For this (group) project, we aimed to create an e-commerce platform for the sale of 3D-printed items. Technologies implemented included JavaScript, React.js, Redux.js, Node.js, CSS, etc.",
-        "projects_skills":"Tecnologies"
+        "projects_skills":"Tecnologies",
+        "projects_awa":"For this (ongoing) project, an e-commerce platform will be developed for the sale of gazebos, incorporating all typical elements found on these pages. Technologies such as React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc., will be implemented."
     },
     "certifications": {
         "certifications_title":"Certifications"
