@@ -2,7 +2,6 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react'
 import "./Contact.css"
 import { SocialMedia } from '../../Components/SocialMedia/SocialMedia';
-import { Button } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
 
@@ -49,9 +48,9 @@ const Contact = () => {
         field="message"
         errors={state.errors}
       />
-      <Button className="button2" type="submit" disabled={state.submitting}>
+      <button className="button2" type="submit" disabled={state.submitting}>
         Enviar
-      </Button>
+      </button>
     </form>
     <br />
     <SocialMedia />

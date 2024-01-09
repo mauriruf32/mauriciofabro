@@ -23,8 +23,10 @@
     color: white;
     background-color: #78b0a6;
     border: #152231;
+    font-weight: bold;
     font-size: large;
     border-radius: 10px;
+  font-family: Tahoma;
 
    
 }

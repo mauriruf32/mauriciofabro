@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
-// import HomeImage from "../../Images/Inicio.jpg"
+
 import CV from './CV Mauricio Fabro 2024_Spanish.pdf';
 
 import './Home.css';
@@ -21,7 +20,7 @@ function Home() {
           <h1>{t(`home.welcome`)}</h1>
           <h2>{t(`home.presentation`)}</h2>
 
-          <Button class='botton' onClick={handleDownload} >Descargar CV</Button>
+          <button className='botton' onClick={handleDownload} >Descargar CV</button>
         </div>
     </div>
     </section>

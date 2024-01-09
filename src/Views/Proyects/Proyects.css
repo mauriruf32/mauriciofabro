@@ -32,6 +32,8 @@ text-decoration-color: aliceblue;
   font-size: small;
   margin-bottom: -10px;
   border-radius: 10px;
+  font-family: Tahoma;
+
 }
 
 .button3:hover {
