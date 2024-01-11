@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react'
 import "./Contact.css"
-import { SocialMedia } from '../../Components/SocialMedia/SocialMedia';
 import { useTranslation } from 'react-i18next';
 
 
@@ -51,10 +50,8 @@ const Contact = () => {
       <button className="button2" type="submit" disabled={state.submitting}>
       {t(`buttons.buttons_contact`)}
       </button>
-    </form>
-    <SocialMedia />
 
-    <br />
+    </form>
     </section>
   );
 }

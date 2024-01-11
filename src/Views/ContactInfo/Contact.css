@@ -10,7 +10,7 @@
   background-color: #152231;
   background-size: cover;
   background-position: center;
-  width: 80%;
+  width: 100%;
   min-height: 500px; /* Cambiado a min-height para permitir un crecimiento en contenido */
   display: flex;
   align-items: center;
@@ -42,5 +42,6 @@ font-family: Tahoma;
   width: 100%; /* Modificado para ocupar un ancho mayor en pantallas pequeñas */
   font-family: Tahoma;
   padding-left: 10%;
+  padding-right: 10%;
 }
 

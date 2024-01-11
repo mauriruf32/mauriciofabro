@@ -12,8 +12,8 @@ import "./Skills.css";
 function Skills() {
   return (
     <section className="skills">
+         <h2 className='h2 text-white'>Skills</h2>
      <div className='skills_container'>
-  <h2>Skills</h2>
   <div class="cols">
 			<div class="col">
 				<div class="container_S">

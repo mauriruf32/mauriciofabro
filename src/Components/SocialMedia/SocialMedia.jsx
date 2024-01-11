@@ -19,8 +19,9 @@ export const SocialMedia = () => {
         <img src={Gmail} alt="logoGmail" />
            mauriruffini32@gmail.com
       </li>
+      <br />
+      <i class="fas fa-camera-retro"></i>
       <li>
-        <br />
         <img src={Git} alt="logoGit" />
         <a href='https://github.com/mauriruf32' target='_blank' rel='noopener noreferrer'>
           mauriruf32
@@ -36,7 +37,7 @@ export const SocialMedia = () => {
       <br />
       <li>
         <img src={Location} alt="logoLocation" />
-        Paraná - Argentina
+        Paraná, Argentina
       </li>
     </div>
   )
