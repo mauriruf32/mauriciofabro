@@ -28,8 +28,7 @@ function Skills() {
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col" >
+
 				<div class="container_S">
 					<div class="front" >
 						<div class="inner">
@@ -56,8 +55,7 @@ function Skills() {
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col" >
+
 				<div class="container_S">
 					<div class="front" >
 						<div class="inner">
@@ -85,9 +83,7 @@ function Skills() {
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="col" >
 				<div class="container_S">
 					<div class="front" >
 						<div class="inner">
@@ -114,8 +110,7 @@ function Skills() {
 						</div>
 					</div>
 				</div>
-			</div>
-      <div class="col">
+
 				<div class="container_S">
 					<div class="front" >
 						<div class="inner">

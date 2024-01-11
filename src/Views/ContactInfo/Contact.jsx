@@ -52,8 +52,9 @@ const Contact = () => {
       {t(`buttons.buttons_contact`)}
       </button>
     </form>
-    <br />
     <SocialMedia />
+
+    <br />
     </section>
   );
 }
