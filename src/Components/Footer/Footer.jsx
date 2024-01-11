@@ -51,7 +51,7 @@ function Footer() {
   
     <div class="text-center p-3" style={{ backgroundColor: '#152231' }}>
       © 2024 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Mauri's Web</a>
+      <a class="text-white" href="https://mauriciofabro.vercel.app/">Mauri's Web</a>
     </div>
   </footer>
   )
