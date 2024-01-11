@@ -1,7 +1,7 @@
 {
     "home": { 
-        "welcome": "Hi!, my name is Mauricio Fabro",
-        "presentation": "Full Stack Web Developer"
+        "welcome": "Hi! My name is Mauricio Fabro",
+        "presentation": "I'm a Full Stack Web Developer"
     },
     "contact": { 
         "title": "Contact"
@@ -16,14 +16,14 @@
     },
     "about": { 
         "about_title":"About Me",
-        "about":"¡Hi! I'm Mauricio, recently graduated from the Henry bootcamp and passionate about Full-Stack programming. My proactive approach and constant desire to learn lead me to explore new technologies and approaches in web development. I consider myself a creative problem solver, always seeking innovative alternatives to tackle challenges that arise along the way. Collaboration is one of my strengths; I enjoy working in teams and believe in the importance of communication and collaboration in the development of successful projects. I am excited to kickstart my career as a Full-Stack Developer and eager to contribute my passion and skills to innovative projects. I am ready to face new challenges and continue growing in this field. Looking forward to joining a team and starting this exciting professional journey!"
+        "about":"Hi! I'm Mauricio, recently graduated from the Henry bootcamp and passionate about Full-Stack programming. My proactive approach and constant desire to learn lead me to explore new technologies and approaches in web development. I consider myself a creative problem solver, always seeking innovative alternatives to tackle challenges that arise along the way. Collaboration is one of my strengths; I enjoy working in teams and believe in the importance of communication and collaboration in the development of successful projects. I am excited to kickstart my career as a Full-Stack Developer and eager to contribute my passion and skills to innovative projects. I am ready to face new challenges and continue growing in this field. Looking forward to joining a team and starting this exciting professional journey!"
     },
     "projects": { 
         "projects_title":"Projects",
         "projects_countries":"The goal was to build a Single Page Application (SPA) to explore information and details about various countries, using technologies such as React, Redux, Node, CSS, Express, Sequelize. Version control tools (Git and Github) were also used.",
         "projects_print":"For this (group) project, we aimed to create an e-commerce platform for the sale of 3D-printed items. Technologies implemented included JavaScript, React.js, Redux.js, Node.js, CSS, etc.",
         "projects_skills":"Tecnologies",
-        "projects_awa":"For this (ongoing) project, an e-commerce platform will be developed for the sale of gazebos, incorporating all typical elements found on these pages. Technologies such as React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc., will be implemented."
+        "projects_awa":"For this (on-going) project, an e-commerce platform will be developed for the sale of gazebos, incorporating all typical elements found on these pages. Technologies such as React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc., will be implemented."
     },
     "certifications": {
         "certifications_title":"Certifications"

@@ -11,6 +11,7 @@ import JS from '../../Images/javascript.d04a05c4.png';
 import NODE from "../../Images/node.f467a70a.png";
 import REDUX from "../../Images/redux.png";
 import POS from "../../Images/postgres.8e58ad2c.png";
+import PROGRESS from "../../Images/In Progress.gif";
 
 
 import "./Proyects.css";
@@ -33,9 +34,9 @@ const Projects = () => {
       enlace: "https://printcraft3d.vercel.app/",
     },
     {
-      title: "E-commerce (en proceso)",
+      title: "E-commerce",
       description: <p>{t("projects.projects_awa")}</p>,
-      image: Print1,
+      image: PROGRESS,
       enlace: "...",
     },
   ];

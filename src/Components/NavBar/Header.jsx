@@ -37,6 +37,7 @@ const Header = () => {
       <li class="nav-item">
         <a class="nav-link" href="..."><Link to="contact" className='text-white' smooth={true} duration={500}>{t("header.contact")}</Link></a>
       </li>
+
       <button className='boton'  onClick={() => i18n.changeLanguage("es")} type="button">ES</button>
       <button className='boton'  onClick={() => i18n.changeLanguage("en")} type="button">EN</button>
     </ul>
