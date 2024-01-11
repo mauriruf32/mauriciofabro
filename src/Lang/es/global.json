@@ -4,7 +4,8 @@
         "presentation": "Soy Desarrollador Full-Stack"
     },
     "contact": { 
-        "title": "Contacto"
+        "title": "Contacto",
+        "name": "Nombre"
     },
     "header": { 
         "contact": "Contacto",

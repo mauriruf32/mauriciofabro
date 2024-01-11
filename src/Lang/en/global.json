@@ -4,7 +4,8 @@
         "presentation": "I'm a Full Stack Web Developer"
     },
     "contact": { 
-        "title": "Contact"
+        "title": "Contact",
+        "name": "Name"
     },
     "header": { 
         "contact": "Contact",

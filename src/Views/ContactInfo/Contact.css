@@ -1,17 +1,9 @@
-/* @media only screen and (min-width: 600px) {
-  .form {
-    width: 60%; 
-    margin-right: 10%; 
-  }
-} */
-
-
 .contact_container {
   background-color: #152231;
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 500px; /* Cambiado a min-height para permitir un crecimiento en contenido */
+  min-height: 300px; /* Cambiado a min-height para permitir un crecimiento en contenido */
   display: flex;
   align-items: center;
   justify-content: center;

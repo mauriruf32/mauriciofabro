@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   text-align: left;
   color: white;
-  margin-top: 100px;
+  margin-top: 5%;
   margin-bottom: 50px;
   background-color: #152231;
   font-family: Tahoma;
@@ -15,14 +15,14 @@
 
 .cols {
   display: flex;
-  flex-wrap: wrap-reverse; /* Modificado para permitir el ajuste en pantallas pequeñas */
+  flex-wrap: wrap-reverse; 
   justify-content: space-evenly;
   margin-bottom: 200px;
 }
 
 .col {
-  width: 200px; /* Set the width as needed */
-  height: 200px; /* Set the height as needed */
+  width: 200px; 
+  height: 200px; 
   perspective: 1000px;
 }
 

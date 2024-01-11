@@ -17,7 +17,7 @@ const Contact = () => {
 <form onSubmit={handleSubmit} className='form'>
             <h2>{t(`contact.title`)}</h2>
       <label htmlFor="name">
-        Nombre
+      {t(`contact.name`)}
       </label>
       <input
         id="name"

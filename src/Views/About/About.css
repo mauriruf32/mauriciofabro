@@ -38,6 +38,8 @@
     color: white;
     font-size: larger;
     text-align: justify;
+    margin-bottom: 10%;
+    margin-top: 5%;
     display: flex;
   }
   
