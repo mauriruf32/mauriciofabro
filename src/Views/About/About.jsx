@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import Image from "../../Images/mauri.jpeg"
 import "./About.css";
 import { useTranslation } from 'react-i18next';
 
@@ -10,7 +10,9 @@ const About = () => {
 
   return (
     <section className="about">
+
       <div className="backIm"> 
+      <img className="imageAbout" src={Image} alt="img_about"/>
 
       </div>
       <div className="container"> 

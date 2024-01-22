@@ -1,34 +1,23 @@
+
+
 .container1 {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse; /* Make the child elements appear in a row */
+  width: 100%; /* Optional: Set a maximum width for the container */
     color: white; /* Ajusta el color del texto para que sea legible en la imagen */
-    justify-content: space-evenly;
     background-color: #152231;   
+    justify-content: center;
 
 }
 
 
 .textHome {
-    margin-top: 10%;
-
-    text-align: left;
     font-size: xx-large;
     height: 210px;
-    margin-left: 30px;
+    margin-top: 5%;
 } 
 
-.imageAbout {
-  border-color: antiquewhite;
-  border-style: solid;
-  border-radius: 300px;
-  height: 300px;
-  width: 300px;
-background-color: #152231;
-margin-right: 150px;
-margin-top: 5%;
-}
+
 
 .botton {
     width: 150px;
@@ -48,9 +37,9 @@ margin-top: 5%;
     border-color: #18222c; /* Cambia el color del borde al color primario de Bootstrap en estado de hover */
   }
 
-  .img {
+  /* .img {
     max-width: 100%;
     height: auto;
-  }
+  } */
 
   
