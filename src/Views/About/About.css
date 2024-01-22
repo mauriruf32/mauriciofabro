@@ -16,21 +16,17 @@
     background-image: url('../../Images/binario.png');
     height: 210px;
     width: 100%;
-    justify-content: center;
+    margin-bottom: 5%;
+    justify-items: center;
+
   }
   
   .h2 {
-    margin-right: 10px;
+    margin-right: 6%;
+    
   }
 
-  .imageAbout {
-    border-color: antiquewhite;
-    border-style: solid;
-    border-radius: 300px;
-    height: 200px;
-    width: 200px;
-  background-color: #152231;
-  }
+
   
   .textAbout {
     width: 100%; /* Utiliza el 100% del ancho en pantallas más pequeñas */
@@ -39,11 +35,12 @@
     font-size: larger;
     text-align: justify;
     margin-bottom: 10%;
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
   }
   
   .img {
     max-width: 100%;
     height: auto;
+    
   }

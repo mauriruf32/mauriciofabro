@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import Image from "../../Images/mauri.jpeg"
 
 import CV_Eng from './CV Mauricio Fabro 2024_English.pdf';
 import CV_Spa from './CV Mauricio Fabro 2024_Spanish.pdf';
@@ -19,12 +20,17 @@ function Home() {
   return (
     <section className='home'>
       <div className='container1'>
+    <img className="imageAbout" src={Image} alt="img_about"/>
+
         <div className='textHome'>
           <h1>{t(`home.welcome`)}</h1>
           <h2>{t(`home.presentation`)}</h2>
           <button className='botton' onClick={handleDownload}>{t(`buttons.buttons_home`)}</button>
+
         </div>
+        
       </div>
+      
     </section>
   );
 }

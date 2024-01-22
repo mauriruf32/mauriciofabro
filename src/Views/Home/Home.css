@@ -2,21 +2,33 @@
     width: 100%;
     height: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     color: white; /* Ajusta el color del texto para que sea legible en la imagen */
     justify-content: space-evenly;
     background-color: #152231;   
+
 }
 
 
 .textHome {
-    margin-top: 100px;
+    margin-top: 10%;
 
     text-align: left;
     font-size: xx-large;
     height: 210px;
     margin-left: 30px;
 } 
+
+.imageAbout {
+  border-color: antiquewhite;
+  border-style: solid;
+  border-radius: 300px;
+  height: 300px;
+  width: 300px;
+background-color: #152231;
+margin-right: 150px;
+margin-top: 5%;
+}
 
 .botton {
     width: 150px;
