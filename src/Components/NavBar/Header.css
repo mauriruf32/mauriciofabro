@@ -62,6 +62,7 @@ a {
   width: 50px;
   font-family: Tahoma;
   font-weight: bold;
+  justify-content: space-around;
 }
 
 .boton:hover {

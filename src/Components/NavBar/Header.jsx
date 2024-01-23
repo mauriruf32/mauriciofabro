@@ -36,10 +36,16 @@ const Header = () => {
       </li>
       <li class="nav-item">
         <a class="nav-link" href="..."><Link to="contact" className='text-white' smooth={true} duration={500}>{t("header.contact")}</Link></a>
-      </li>
+      </li>    
+      <div class="p-2">
+        <button className='boton'  onClick={() => i18n.changeLanguage("es")} type="button">ES</button>
 
-      <button className='boton'  onClick={() => i18n.changeLanguage("es")} type="button">ES</button>
+      </div>      
+        <div class="p-2">
+
       <button className='boton'  onClick={() => i18n.changeLanguage("en")} type="button">EN</button>
+      </div>
+
     </ul>
 
   </div>
