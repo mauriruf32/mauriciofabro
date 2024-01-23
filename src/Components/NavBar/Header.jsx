@@ -41,7 +41,7 @@ const Header = () => {
         <button className='boton'  onClick={() => i18n.changeLanguage("es")} type="button">ES</button>
 
       </div>      
-        <div class="p-2">
+      <div class="p-2">
 
       <button className='boton'  onClick={() => i18n.changeLanguage("en")} type="button">EN</button>
       </div>
