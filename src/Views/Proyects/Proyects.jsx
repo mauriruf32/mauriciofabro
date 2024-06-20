@@ -3,7 +3,7 @@ import React from 'react';
 
 import Countries1 from "../../Images/loading.png";
 import Countries2 from "../../Images/home.png";
-import Print1 from "../../Images/Print1.png";
+import Print3 from "../../Images/Print3.png";
 import HTML from '../../Images/html.d20c9482.png';
 import CSS from '../../Images/css.4040bdba.png';
 import REACT from '../../Images/react.e00184ba.png';
@@ -30,12 +30,18 @@ const Projects = () => {
     {
       title: "PrintCraft3D",
       description: <p>{t("projects.projects_print")}</p>,
-      image: Print1,
-      enlace: "https://printcraft3d.vercel.app/",
+      image: Print3,
+      enlace: "https://printcraft3d-delta.vercel.app/",
     },
     {
       title: "E-commerce",
       description: <p>{t("projects.projects_awa")}</p>,
+      image: PROGRESS,
+      enlace: "https://awa-gazebos-rd9d.vercel.app/",
+    },
+    {
+      title: "Hiking-App",
+      description: <p>{t("projects.projects_hiking")}</p>,
       image: PROGRESS,
       enlace: "...",
     },

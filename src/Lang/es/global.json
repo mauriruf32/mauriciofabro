@@ -25,7 +25,8 @@
         "projects_countries":" El objetivo fue construir una Single Page Application (SPA) para explorar información y detalles de diversos países, utilizando tecnologías como: React, Redux, Node, CSS, Express, Sequelize. Ademas se usaron recursos como controladores de versiones (Git y Github).",
         "projects_print":"Para este proyecto (grupal) nos propusimos realizar una ecommerce para la venta de articulos impresos con impresoras 3D. Se implementaron tecnologías como JavaScript, React.js, Redux.js, Node.js, CSS, etc.",
         "projects_skills":"Tecnologias",
-        "projects_awa":"Para este proyecto (en proceso) se elaborará una ecommerce para la venta de gazebos, contará con todos los elementos típicos de estas paginas. Se implementarán tecnologías como React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc."
+        "projects_awa":"Ecommerce para la venta de gazebos, cuenta con todos los elementos típicos de estas paginas. Se implementarón tecnologías como React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc.",
+        "projects_hiking":"Para este proyecto (en proceso) se elaborará una aplicacion que permite buscar Senderos para haking, contará con cards con fotos y su ubicacion en el mapa. Se implementarán tecnologías como React, React-Bootstrap, JavaScript, CSS, etc."
     },
     "certifications": {
         "certifications_title":"Certificaciones"

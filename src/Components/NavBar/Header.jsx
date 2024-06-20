@@ -15,11 +15,9 @@ const Header = () => {
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto t-white">
       <li class="nav-item active" className='text-white'>
-      
         <a class="nav-link" href="..."><Link to="home" className='text-white' smooth={true} duration={500}>{t("header.home")}</Link></a>
       </li>
       <li class="nav-item">
@@ -39,15 +37,11 @@ const Header = () => {
       </li>    
       <div class="p-2">
         <button className='boton'  onClick={() => i18n.changeLanguage("es")} type="button">ES</button>
-
       </div>      
       <div class="p-2">
-
-      <button className='boton'  onClick={() => i18n.changeLanguage("en")} type="button">EN</button>
+        <button className='boton'  onClick={() => i18n.changeLanguage("en")} type="button">EN</button>
       </div>
-
     </ul>
-
   </div>
 </nav>
 
