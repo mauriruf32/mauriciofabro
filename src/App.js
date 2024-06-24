@@ -8,6 +8,7 @@ import Contact from './Views/ContactInfo/Contact';
 import Skills from './Components/Skills/Skills';
 import Certifications from './Views/Certifications/Certifications';
 import Footer from './Components/Footer/Footer';
+import Error404 from "./Components/error404/Error404"
 
 function App() {
   return (
