@@ -17,7 +17,7 @@
     },
     "about": { 
         "about_title":"About Me",
-        "about":"Hey there! I'm Mauricio, a Full-Stack Developer actively strengthening my skills in JavaScript, HTML, CSS, Redux, React, Node.js, SQL, and Sequelize, among others. I thrive on exploring new technologies and crafting creative solutions to challenges. Collaboration and communication are essential to me, as I believe they drive successful project outcomes. I'm eager to apply my passion for coding to innovative projects, whether through freelance work or joining a great team. Ready to take on new challenges and make a meaningful contribution!"
+        "about":"Hey there! I'm Mauricio, a Full-Stack Developer actively strengthening my skills in JavaScript, HTML, CSS, Redux, React, Node.js, SQL, among others. I thrive on exploring new technologies and crafting creative solutions to challenges. Collaboration and communication are essential to me, as I believe they drive successful project outcomes. I'm eager to apply my passion for coding to innovative projects, whether through freelance work or joining a great team. Ready to take on new challenges and make a meaningful contribution!"
     },
     "projects": { 
         "projects_title":"Projects",
