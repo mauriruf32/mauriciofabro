@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Countries App",
       description: <p>{t("projects.projects_countries")}</p>,
       image: Countries1, Countries2,
-      enlace: "https://countries-app-theta-gilt.vercel.app/",
+      enlace: "/",
     },
     {
       title: "PrintCraft3D",
