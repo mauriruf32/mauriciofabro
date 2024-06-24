@@ -17,7 +17,7 @@
     },
     "about": { 
         "about_title":"Sobre Mi",
-        "about":"¡Hola! Soy Mauricio, apasionado por la programación Full-Stack. Mi enfoque proactivo y mi deseo constante de aprender me llevan a explorar nuevas tecnologías y enfoques en el desarrollo web. Me considero un solucionador de problemas creativo, siempre en busca de alternativas innovadoras para enfrentar los desafíos que surgen en el camino. La colaboración es una de mis fortalezas, disfruto trabajando en equipo, y creo en la importancia de la comunicación y la colaboración en el desarrollo de proyectos exitosos. Estoy emocionado por iniciar mi carrera como desarrollador y ansioso por contribuir con mi pasión y habilidades a proyectos innovadores. Estoy listo para enfrentar nuevos retos y continuar creciendo en este campo. ¡Con ganas de sumarme a un equipo y comenzar esta emocionante etapa profesional!"
+        "about":"¡Hola! Soy Mauricio, un Desarrollador Full-Stack activamente fortaleciendo y ampliando mis habilidades en JavaScript, HTML, CSS, Redux, React, Node.js, SQL y Sequelize, entre otros. Disfruto explorando nuevas tecnologías y creando soluciones creativas. La colaboración y la comunicación son fundamentales para mí, ya que creo que impulsan resultados exitosos en los proyectos. Estoy entusiasmado por aplicar mi pasión por la programación en proyectos innovadores, ya sea a través de trabajos freelance o uniéndome a un gran equipo. ¡Listo para enfrentar nuevos desafíos y hacer una contribución significativa!"
 
     },
     "projects": { 
@@ -26,7 +26,7 @@
         "projects_print":"Para este proyecto (grupal) nos propusimos realizar una ecommerce para la venta de articulos impresos con impresoras 3D. Se implementaron tecnologías como JavaScript, React.js, Redux.js, Node.js, CSS, etc.",
         "projects_skills":"Tecnologias",
         "projects_awa":"Ecommerce para la venta de gazebos, cuenta con todos los elementos típicos de estas paginas. Se implementarón tecnologías como React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc.",
-        "projects_hiking":"Para este proyecto (en proceso) se elaborará una aplicacion que permite buscar Senderos para haking, contará con cards con fotos y su ubicacion en el mapa. Se implementarán tecnologías como React, React-Bootstrap, JavaScript, CSS, etc."
+        "projects_hiking":"Para este proyecto (en proceso) se elaborará una aplicacion que permite buscar Senderos para hiking, contará con cards con fotos y su ubicacion en el mapa. Se implementarán tecnologías como React, React-Bootstrap, JavaScript, CSS, etc."
     },
     "certifications": {
         "certifications_title":"Certificaciones"
