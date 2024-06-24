@@ -63,6 +63,7 @@ a {
   font-family: Tahoma;
   font-weight: bold;
   justify-content: space-around;
+  margin-right: 10px;
 }
 
 .boton:hover {
@@ -71,6 +72,5 @@ a {
 }
 
 .botones {
-  margin-left: 600px;
-  position: absolute;
+  display: flex;
 }
