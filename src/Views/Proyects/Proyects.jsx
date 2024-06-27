@@ -3,7 +3,7 @@ import React from 'react';
 
 import Countries1 from "../../Images/loading.png";
 import Countries2 from "../../Images/home.png";
-import Print3 from "../../Images/Print1.png";
+import Print3 from "../../Images/Captura.PNG";
 import Awa1 from "../../Images/awa1.png";
 import HTML from '../../Images/html.d20c9482.png';
 import CSS from '../../Images/css.4040bdba.png';
