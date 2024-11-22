@@ -2,8 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 
-import CV_Eng from './Mauricio Fabro Resume 2024.06.pdf';
-import CV_Spa from './CV Mauricio Fabro 2024.06.pdf';
+import CV_Eng from './Mauricio Fabro Resume 11.2024 ENG-US.pdf';
+import CV_Spa from './Mauricio Fabro Resume 11.2024 SPANISH.pdf';
 
 import './Home.css';
 

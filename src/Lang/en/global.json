@@ -24,8 +24,8 @@
         "projects_countries":"The goal was to build a Single Page Application (SPA) to explore information and details about various countries, using technologies such as React, Redux, Node, CSS, Express, Sequelize. Version control tools (Git and Github) were also used.",
         "projects_print":"For this (group) project, we aimed to create an e-commerce platform for the sale of 3D-printed items. Technologies implemented included JavaScript, React.js, Redux.js, Node.js, CSS, etc.",
         "projects_skills":"Tecnologies",
-        "projects_awa":"E-commerce (DEMO) for gazebo sales, featuring all the typical elements of such sites. Technologies such as React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc., were implemented.",
-        "projects_hiking":"For this project (in progress), an application will be developed that allows searching for hiking trails, featuring cards with photos and their location on the map. Technologies such as React, React-Bootstrap, JavaScript, CSS, etc., will be implemented."
+        "projects_awa":"Developed an informational e-commerce platform for an SME specializing in gazebo sales, Features include a product showcase with detailed descriptions, vendor management portal, WhatsApp integration, secure payments, search and filtering tools, responsive design, and real-time notifications.. Technologies such as React, Bootstrap, JavaScript, Sequelize, Postgres, Node.js, etc., were implemented.",
+        "projects_hiking":"Built an app enabling users to discover hiking spots, create accounts, and add new hiking locations via an interactive form. Currently in demo mode, with final touches and optimizations in progress, Features include detailed user profiles, interactive maps, trail creation, likes, comments, and a favorite trails section. Technologies such as React.js, Node.js, JavaScript, CSS, Sequelize, Leaflet, Bootstrap, etc., were implemented.."
     },
     "certifications": {
         "certifications_title":"Certifications"

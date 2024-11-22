@@ -25,6 +25,18 @@ const Projects = () => {
 
   const projectData = [
     {
+      title: "E-commerce AWA-GAZEBOS",
+      description: <p>{t("projects.projects_awa")}</p>,
+      image: Awa1,
+      enlace: "https://awa-gazebos-rd9d.vercel.app/",
+    },
+    {
+      title: "Hiking Places App - Demo",
+      description: <p>{t("projects.projects_hiking")}</p>,
+      image: PROGRESS,
+      enlace: "...",
+    },
+    {
       title: "Countries App",
       description: <p>{t("projects.projects_countries")}</p>,
       image: Countries1, Countries2,
@@ -35,19 +47,7 @@ const Projects = () => {
       description: <p>{t("projects.projects_print")}</p>,
       image: Print3,
       enlace: "https://printcraft3d-delta.vercel.app/",
-    },
-    {
-      title: "E-commerce AWA-GAZEBOS",
-      description: <p>{t("projects.projects_awa")}</p>,
-      image: Awa1,
-      enlace: "https://awa-gazebos-rd9d.vercel.app/",
-    },
-    {
-      title: "Hiking-App",
-      description: <p>{t("projects.projects_hiking")}</p>,
-      image: PROGRESS,
-      enlace: "...",
-    },
+    }
   ];
 
   return (
