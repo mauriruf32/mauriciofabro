@@ -25,28 +25,28 @@ const Projects = () => {
 
   const projectData = [
     {
-      title: "E-commerce AWA-GAZEBOS",
-      description: <p>{t("projects.projects_awa")}</p>,
-      image: Awa1,
-      enlace: "https://awa-gazebos-rd9d.vercel.app/",
-    },
-    {
       title: "Hiking Places App - Demo",
       description: <p>{t("projects.projects_hiking")}</p>,
       image: PROGRESS,
       enlace: "...",
     },
     {
-      title: "Countries App",
-      description: <p>{t("projects.projects_countries")}</p>,
-      image: Countries1, Countries2,
-      enlace: "https://res.cloudinary.com/djsqt7j6v/image/upload/v1719262652/Logo_para_Programadora_Web_Moderno_Ilustraci%C3%B3n_Azul_y_Violeta_oeigzj.gif",
+      title: "E-commerce AWA-GAZEBOS",
+      description: <p>{t("projects.projects_awa")}</p>,
+      image: Awa1,
+      enlace: "https://awa-gazebos-rd9d.vercel.app/",
     },
     {
       title: "E-commerce PrintCraft3D",
       description: <p>{t("projects.projects_print")}</p>,
       image: Print3,
       enlace: "https://printcraft3d-delta.vercel.app/",
+    },
+    {
+      title: "Countries App",
+      description: <p>{t("projects.projects_countries")}</p>,
+      image: Countries1, Countries2,
+      enlace: "https://res.cloudinary.com/djsqt7j6v/image/upload/v1719262652/Logo_para_Programadora_Web_Moderno_Ilustraci%C3%B3n_Azul_y_Violeta_oeigzj.gif",
     }
   ];
 
